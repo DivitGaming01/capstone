@@ -9,5 +9,6 @@ function carousel(){
     myindex++;
     if (myindex>x.length){myindex=1;}
     x[myindex-1].style.display="block";
-    setTimeout(carousel,3000);      
+    setTimeout(carousel,3000);
 }
+carousel();
